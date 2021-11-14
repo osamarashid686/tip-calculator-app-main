@@ -1,0 +1,122 @@
+@import "general";
+@import "variables";
+@import "desktop";
+
+
+.title{
+    line-height: 25px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    font-weight: 700;
+    color: $title-color;
+    margin-top: 30px;
+    
+}
+
+
+.container-sm{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4rem;
+    margin-top: 40px;
+    position: relative;
+    
+    label{
+        font-weight: 900;
+        font-size: 1.4rem;
+        color: $font-color;
+    }
+    input{
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        
+        border: none;
+        background-color: $input-back-color;
+        text-align: right;
+        font-size: 2rem;
+        color: $Very-dark-cyan;
+        font-weight: 900;
+        width: 100%;
+        
+        &:focus{
+            outline: 2px solid $Strong-cyan;
+        }
+    }
+    #bill_error{
+        color: red;
+        float: right;
+    }
+    button{
+        border-radius: 5px;
+        border: none;
+        padding: 1rem ;
+        font-size: 2rem;
+        font-weight: 900;
+        background-color: $Very-dark-cyan;
+        color: white;
+        
+        
+
+        &:hover{
+            background-color: $Strong-cyan;
+        }
+    }
+    #custome{
+        margin-top: 15px;
+        
+        border-radius: 5px;
+        padding: 0.5rem;
+        width: 40%;
+
+        text-align: center;
+    }
+    #custom-btn{
+        background-color: white;
+        color: $font-color;
+    }
+    #output{
+        background-color: $Very-dark-cyan;
+        border-radius:15px;
+        position: relative;
+        padding: 5rem 4rem;
+    }
+    
+    .bi{
+        position: absolute;
+        font-size: 1.8rem;
+        color: #9db2b4;
+        left: 45px;
+        width: 30px;
+        top: 72px;
+    }
+    .bi-person-fill{
+        top: 370px;
+        
+    }
+    .last-btn{
+        background-color: $Strong-cyan;
+        color: $Very-dark-cyan;  
+        margin-top: 8rem;
+        width: 100%;
+        
+        &:hover{
+            background-color: #9fe8df;
+        }
+    }
+    p{
+        font-size: 1.3rem;
+        font-weight: 900;
+        color: #f0ffff;
+        margin-bottom: 0px;
+       
+    }
+    span{
+        color: #a7a7a7;
+    }
+    .n{
+        color: $Strong-cyan;
+        font-size: 4rem;
+    }
+}
+

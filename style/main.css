@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #c5e4e7;
+}
+
+@media screen and (min-width: 1000px) {
+  .container-sm {
+    width: 65%;
+  }
+  .container-sm #custome {
+    max-width: 25%;
+  }
+  .container-sm input {
+    max-width: 80%;
+  }
+  .container-sm .bi-person-fill {
+    top: 370px;
+  }
+}
+
+.title {
+  line-height: 25px;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 8px;
+  font-weight: 700;
+  color: #3f6264;
+  margin-top: 30px;
+}
+
+.container-sm {
+  background-color: white;
+  border-radius: 20px;
+  padding: 4rem;
+  margin-top: 40px;
+  position: relative;
+}
+
+.container-sm label {
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: #506566;
+}
+
+.container-sm input {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f8fb;
+  text-align: right;
+  font-size: 2rem;
+  color: #084342;
+  font-weight: 900;
+  width: 100%;
+}
+
+.container-sm input:focus {
+  outline: 2px solid #26c0ab;
+}
+
+.container-sm #bill_error {
+  color: red;
+  float: right;
+}
+
+.container-sm button {
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #084342;
+  color: white;
+}
+
+.container-sm button:hover {
+  background-color: #26c0ab;
+}
+
+.container-sm #custome {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 40%;
+  text-align: center;
+}
+
+.container-sm #custom-btn {
+  background-color: white;
+  color: #506566;
+}
+
+.container-sm #output {
+  background-color: #084342;
+  border-radius: 15px;
+  position: relative;
+  padding: 5rem 4rem;
+}
+
+.container-sm .bi {
+  position: absolute;
+  font-size: 1.8rem;
+  color: #9db2b4;
+  left: 45px;
+  width: 30px;
+  top: 72px;
+}
+
+.container-sm .bi-person-fill {
+  top: 370px;
+}
+
+.container-sm .last-btn {
+  background-color: #26c0ab;
+  color: #084342;
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.container-sm .last-btn:hover {
+  background-color: #9fe8df;
+}
+
+.container-sm p {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #f0ffff;
+  margin-bottom: 0px;
+}
+
+.container-sm span {
+  color: #a7a7a7;
+}
+
+.container-sm .n {
+  color: #26c0ab;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=main.css.map */
